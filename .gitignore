@@ -9,7 +9,7 @@ wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 analysis/node_modules/
-
+.idea/
 
 /.htaccess
 /license.txt
