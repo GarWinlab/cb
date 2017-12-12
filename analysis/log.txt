@@ -1,0 +1,9 @@
+spooky start
+419697.3200
+bestchange report
+444390.96661844343
+bestchange2 report
+{"sell":"420697.32","buy":"443390.97"}
+analysis report
+prices.html
+report.html

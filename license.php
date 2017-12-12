@@ -1,0 +1,27 @@
+<?php exit(0); ?>
+
+
+------ LICENSE FILE DATA -------
+000XUW15aF4HqXK+CCqNtaiqXGoTqnHG
+AWer2VQa5aUkBmg2/SX7g3gEu8KQ0ldl
+sv0bhBH2S1yYMAhopagXoAAjmGwXLj6T
+1C3tQ578pcfZdzK62lurwqPtuV3T5BMH
+YE/ydGVguSmtBdoOxAAUBxvX6JDx18kt
+QeK3WkNKU4+OZzIiF9mlzvAotxzGgJgi
+/oUFR/r2askZA8DBwT52Frja/WO6IFk8
+sLxVCLX9Y/wpZWxetElc0Im6GSgoxrvU
+hb+dyBJzu5Z4Pai9mNvfI/Hh6DqcHRWl
+eOaRDc1MGFHlv/jGYzmRAsJXrkgBGSU8
+B5iAjeY5zmOrXUGyB/n0kWegaq69kiOT
+/8MONI4s8ZEuBzwFOZLgm+Tx2o170L4c
+YK3Bru7g4qOoL54l+lGZkN+L8e89Zfaq
+jdRlQo24riHZ5SP6HyR2NqoaHbT5bWrT
+q6gsMmTeldbmGScMTQooFyJHSX6QQBgw
+FKo3TnrX8K+ebiVBLSFQHzx4DzmkdeG4
+MVUIgQwUIxKGvv+rCs4DfisTtvK1gGhO
+ooAoonLwyPvbGD0M1Z97Re1FKxrpqi7e
+ue7BFzpqJTkmfNz8KVXHh8BG4R/SsYc5
+J3dVTzP7mrdCQRl+OX7QKkbjhjarUknS
+TGXvuyp3kvIXlDGuXXKWbV8eFg88yXbN
+
+
