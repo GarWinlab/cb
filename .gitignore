@@ -10,6 +10,7 @@ wp-content/uploads/
 wp-content/wp-cache-config.php
 analysis/node_modules/
 
+
 /.htaccess
 /license.txt
 /readme.html
