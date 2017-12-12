@@ -92,13 +92,15 @@ global $wpdb;
 	
 add_action( 'show_user_profile', 'pn_edit_user_pp');
 add_action( 'edit_user_profile', 'pn_edit_user_pp');
-function pn_edit_user_pp($user){
+function pn_edit_user_pp($user){ 
+global $wpdb;
+
 	$user_id = $user->ID;
 		
 	if(current_user_can('administrator') or current_user_can('pn_pp')){ 
 			
 		$ref_id = $user->ref_id;
-		$users = get_users('exclude='.$user_id);
+		$users = $wpdb->get_results("SELECT ID, user_login FROM ". $wpdb->prefix ."users WHERE ID != '$user_id' ORDER BY user_login ASC");
 		$partner_pers = is_my_money($user->partner_pers);
 		?>
 		<input type="hidden" name="pn_profile_update_pp" value="1" />

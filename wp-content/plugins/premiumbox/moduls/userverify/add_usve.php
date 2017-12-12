@@ -74,7 +74,7 @@ global $wpdb;
 	);	
 	
 	$users = array();
-	$blogusers = get_users();
+	$blogusers = $wpdb->get_results("SELECT ID, user_login FROM ". $wpdb->prefix ."users ORDER BY user_login ASC"); 
 	foreach($blogusers as $us){
 		$users[$us->ID] = is_user($us->user_login);
 	}
@@ -221,7 +221,7 @@ jQuery(function($){
 
 add_action('premium_action_userverify_upload','def_premium_action_userverify_upload');
 function def_premium_action_userverify_upload(){
-global $or_site_url, $wpdb, $premiumbox;	
+global $or_site_url, $wpdb, $premiumbox, $userverify_upload_check_type;	
 	
 	only_post();
 	
@@ -269,71 +269,87 @@ global $or_site_url, $wpdb, $premiumbox;
 				$max_mb = pn_max_upload();
 				$max_upload_size = $max_mb * 1024 * 1024;
 				$fileupform = pn_enable_filetype();					
-					
-				if(in_array($ext, $fileupform)){
-					if($_FILES["file"]["size"] > 0 and $_FILES["file"]["size"] < $max_upload_size){
-						
-						$filename = time().'_'.delsimbol(replace_cyr($_FILES['file']['name']));				
-					
-						$my_dir = wp_upload_dir();
-						$path = $my_dir['basedir'].'/';
-						$path2 = $my_dir['basedir'].'/userverify/';
-						$path3 = $my_dir['basedir'].'/userverify/'. $data->id .'/';
-						if(!is_dir($path)){ 
-							@mkdir($path , 0777);
-						}
-						if(!is_dir($path2)){ 
-							@mkdir($path2 , 0777);
-						}	
-						if(!is_dir($path3)){ 
-							@mkdir($path3 , 0777);
-						}	
-
-						$htacces = $path2.'.htaccess';
-						if(!is_file($htacces)){
-							$nhtaccess = "Order allow,deny \n Deny from all";
-							$file_open = @fopen($htacces, 'w');
-							@fwrite($file_open, $nhtaccess);
-							@fclose($file_open);		
-						}							
-
-						$targetFile =  str_replace('//','/',$path3) . $filename;
-						$result = move_uploaded_file($tempFile,$targetFile);
-						if($result){
+				$ext_old = strtolower(strrchr($_FILES['file']['name'],"."));
+				if(in_array($ext_old, $fileupform)){
+					$fi = @getimagesize($_FILES['file']['tmp_name']);
+					$mtype = is_isset($fi, 'mime');
+					$up_mtype = array('image/png','image/jpeg','image/gif');
+					$up_mtype = apply_filters('pn_enable_mimetype', $up_mtype);
+					if(in_array($mtype, $up_mtype)){
+						if(in_array($ext, $fileupform) or $userverify_upload_check_type == 0){
+							if($_FILES["file"]["size"] > 0 and $_FILES["file"]["size"] < $max_upload_size){
+								
+								$filename = time().'_'.delsimbol(replace_cyr($_FILES['file']['name']));				
 							
-							$olddata = $wpdb->get_row("SELECT * FROM ". $wpdb->prefix ."uv_field_user WHERE uv_id='$id' AND uv_field='$theid'");
-								
-							$arr = array();
-							$arr['uv_data'] = $filename;
-							$arr['uv_id'] = $id;
-							$arr['uv_field'] = $theid;							
-								
-							if(isset($olddata->id)){									
-								if($olddata->uv_data){
-									$file = $my_dir['basedir'].'/userverify/'. $data->id .'/'. $olddata->uv_data;
-									if(is_file($file)) {
-										@unlink($file);
-									}										
+								$my_dir = wp_upload_dir();
+								$path = $my_dir['basedir'].'/';
+								$path2 = $my_dir['basedir'].'/userverify/';
+								$path3 = $my_dir['basedir'].'/userverify/'. $data->id .'/';
+								if(!is_dir($path)){ 
+									@mkdir($path , 0777);
 								}
+								if(!is_dir($path2)){ 
+									@mkdir($path2 , 0777);
+								}	
+								if(!is_dir($path3)){ 
+									@mkdir($path3 , 0777);
+								}	
+
+								$htacces = $path2.'.htaccess';
+								if(!is_file($htacces)){
+									$nhtaccess = "Order allow,deny \n Deny from all";
+									$file_open = @fopen($htacces, 'w');
+									@fwrite($file_open, $nhtaccess);
+									@fclose($file_open);		
+								}							
+
+								$targetFile =  str_replace('//','/',$path3) . $filename;
+								$result = move_uploaded_file($tempFile,$targetFile);
+								if($result){
 									
-								$wpdb->update($wpdb->prefix.'uv_field_user', $arr, array('id'=>$olddata->id));									
-							} else {									
-								$wpdb->insert($wpdb->prefix.'uv_field_user', $arr);
+									$olddata = $wpdb->get_row("SELECT * FROM ". $wpdb->prefix ."uv_field_user WHERE uv_id='$id' AND uv_field='$theid'");
+										
+									$arr = array();
+									$arr['uv_data'] = $filename;
+									$arr['uv_id'] = $id;
+									$arr['uv_field'] = $theid;							
+										
+									if(isset($olddata->id)){									
+										if($olddata->uv_data){
+											$file = $my_dir['basedir'].'/userverify/'. $data->id .'/'. $olddata->uv_data;
+											if(is_file($file)) {
+												@unlink($file);
+											}										
+										}
+											
+										$wpdb->update($wpdb->prefix.'uv_field_user', $arr, array('id'=>$olddata->id));									
+									} else {									
+										$wpdb->insert($wpdb->prefix.'uv_field_user', $arr);
+									}
+									
+									$wpdb->query("UPDATE ".$wpdb->prefix."uv_field_user SET user_id = '$user_id' WHERE uv_id = '$data_id'");
+										
+									$log['response'] = get_usvedoc_temp($id, $theid);
+									
+								} else {
+									$log['status'] = 'error';
+									$log['status_code'] = 1;
+									$log['status_text'] = __('Error! Error loading file','pn');
+								}
+							} else {
+								$log['status'] = 'error';
+								$log['status_code'] = 1;
+								$log['status_text'] = __('Max.','pn').' '. $max_mb .' '. __('MB','pn') .'!';			
 							}
-							
-							$wpdb->query("UPDATE ".$wpdb->prefix."uv_field_user SET user_id = '$user_id' WHERE uv_id = '$data_id'");
-								
-							$log['response'] = get_usvedoc_temp($id, $theid);
-							
 						} else {
 							$log['status'] = 'error';
 							$log['status_code'] = 1;
-							$log['status_text'] = __('Error! Error loading file','pn');
+							$log['status_text'] = __('Error! Incorrect file format','pn');					
 						}
 					} else {
 						$log['status'] = 'error';
 						$log['status_code'] = 1;
-						$log['status_text'] = __('Max.','pn').' '. $max_mb .' '. __('MB','pn') .'!';			
+						$log['status_text'] = __('Error! Incorrect file format','pn');					
 					}
 				} else {
 					$log['status'] = 'error';

@@ -225,6 +225,9 @@ global $wpdb, $premiumbox;
 				return '<div class="exch_error"><div class="exch_error_ins">'. __('Exchange direction is disabled','pn') .'</div></div>';
 			}
 		}
+		if(!isset($naps_data->id)){
+			return '<div class="exch_error"><div class="exch_error_ins">'. __('Exchange direction is disabled','pn') .'</div></div>';
+		}	
 		
 		$naps = array();
 		foreach($naps_data as $naps_key => $naps_val){
@@ -524,11 +527,14 @@ global $wpdb, $premiumbox;
 		$where = get_naps_where('exchange');
 		$naps = $wpdb->get_row("SELECT * FROM ". $wpdb->prefix ."naps WHERE $where AND id='$naps_id'");
 		if(!isset($naps->id)){
-			$output = apply_filters('get_naps_output', 1, $naps_data, 'exchange');
+			$output = apply_filters('get_naps_output', 1, $naps, 'exchange');
 			if($output != 1){			
 				return '<div class="exch_error"><div class="exch_error_ins">'. __('Exchange direction is disabled','pn') .'</div></div>';
 			}	
-		}		
+		}	
+		if(!isset($naps->id)){
+			return '<div class="exch_error"><div class="exch_error_ins">'. __('Exchange direction is disabled','pn') .'</div></div>';
+		}	
 		$m_id = apply_filters('get_merchant_id','', is_isset($naps,'m_in'), $item);		
 	
 		$valut1 = intval($item->valut1i);

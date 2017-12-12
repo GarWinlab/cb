@@ -34,7 +34,7 @@ global $wpdb;
 	
 	$users = array();
 	$users[0] = '-- '. __('No item','pn') .' --';
-	$en_users = get_users();
+	$en_users = $wpdb->get_results("SELECT ID, user_login FROM ". $wpdb->prefix ."users ORDER BY user_login ASC"); 
 	foreach($en_users as $en_user){
 		$users[$en_user->ID] = is_user($en_user->user_login);
 	}

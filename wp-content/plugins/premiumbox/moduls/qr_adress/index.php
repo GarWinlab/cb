@@ -17,7 +17,15 @@ global $premiumbox, $wpdb;
 	$bid = $wpdb->get_row("SELECT * FROM ". $wpdb->prefix ."bids WHERE id='{$item->id}'");
 	$naschet = pn_strip_input($bid->naschet);
 	if($naschet){
-		if(strstr($key, 'blockchain') or strstr($key, 'blockio') or strstr($key, 'btce') or strstr($key, 'edinar') or strstr($key, 'btcup')){
+		if(
+			strstr($key, 'blockchain') or 
+			strstr($key, 'blockio') or 
+			strstr($key, 'wex') or 
+			strstr($key, 'edinar') or 
+			strstr($key, 'btcup') or 
+			strstr($key, 'askbtc') or
+			strstr($key, 'coinpayments')
+		){
 			
 			$new_html .= '
 			<div style="padding: 20px 0; width: 260px; margin: 0 auto;">

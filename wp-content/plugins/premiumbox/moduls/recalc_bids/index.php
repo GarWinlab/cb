@@ -150,6 +150,9 @@ global $wpdb;
 		foreach($item as $k => $v){
 			$arr[$k] = $v;
 		}
+		if(isset($arr['id'])){
+			unset($arr['id']);
+		}
 		$arr['naps_id'] = $data_id;
 		$wpdb->insert($wpdb->prefix.'recalc_bids', $arr);
 	}	
