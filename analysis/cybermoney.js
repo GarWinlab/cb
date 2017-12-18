@@ -137,7 +137,6 @@ function cybermoney() {
         }
         else {
             console.log(err);
-            errors++;
             return false;
         }
 

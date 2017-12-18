@@ -1,0 +1,24 @@
+<rates>
+
+<item>
+<from>BTC</from>
+<to>QWRUB</to>
+<in>1</in>
+<out>811193.47</out>
+<amount>11.99</amount>
+<minfee>2 %</minfee>
+<param>manual, floating</param>
+</item>
+
+<item>
+<from>QWRUB</from>
+<to>BTC</to>
+<in>1651269.84</in>
+<out>1</out>
+<amount>50000</amount>
+<minfee>2 %</minfee>
+<tofee>2 %</tofee>
+<param>manual, floating</param>
+</item>
+
+</rates>

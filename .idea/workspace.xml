@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8728c63d-dfe9-425f-a9b4-4d1ad542f10a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/analysis/cybermoney.js" afterPath="$PROJECT_DIR$/analysis/cybermoney.js" />
+      <change beforePath="$PROJECT_DIR$/analysis/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/analysis/report.html" afterPath="$PROJECT_DIR$/analysis/report.html" />
+      <change beforePath="$PROJECT_DIR$/analysis/report_temp.html" afterPath="$PROJECT_DIR$/analysis/report_temp.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,18 +16,164 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="46" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="1325" lean-forward="false" selection-start-line="4" selection-start-column="1325" selection-end-line="4" selection-end-column="1325" />
+              <folding>
+                <marker date="1513499236000" expanded="true" signature="745302:745322" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bestchange.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/d/bestchange.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="39" column="97" lean-forward="false" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+              <folding>
+                <marker date="1513504194000" expanded="true" signature="2776:2840" ph="..." />
+                <marker date="1513504194000" expanded="true" signature="2922:2954" ph="..." />
+                <marker date="1513504194000" expanded="true" signature="3062:3127" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bestchange2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/bestchange2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+              <folding>
+                <marker date="1513504177000" expanded="true" signature="2813:2845" ph="..." />
+                <marker date="1513504177000" expanded="true" signature="2931:2999" ph="..." />
+                <marker date="1513504177000" expanded="true" signature="3090:3159" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cybermoney.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/cybermoney.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="151" column="10" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="10" />
+              <folding>
+                <marker date="1513498064000" expanded="true" signature="1465:1482" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="1522:1558" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="1578:1615" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="1667:1704" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="1749:1786" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="1831:1868" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="1870:1876" ph=" " />
+                <marker date="1513498064000" expanded="true" signature="1876:1882" ph=" " />
+                <marker date="1513498064000" expanded="true" signature="1882:1888" ph=" " />
+                <marker date="1513498064000" expanded="true" signature="1930:1967" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="1969:1975" ph=" " />
+                <marker date="1513498064000" expanded="true" signature="1975:1981" ph=" " />
+                <marker date="1513498064000" expanded="true" signature="1981:1987" ph=" " />
+                <marker date="1513498064000" expanded="true" signature="2401:2433" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="2934:2990" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="3972:4057" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="4141:4226" ph="..." />
+                <marker date="1513498064000" expanded="true" signature="4314:4389" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localbitcoins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/localbitcoins.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="115" column="37" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/run.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analysis.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d/analysis.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2534">
+              <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+              <folding>
+                <marker date="1513499221000" expanded="true" signature="595:612" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="748:785" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="832:908" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="967:1044" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="1102:1179" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="1240:1317" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="1377:1480" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="1538:1645" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="1702:1798" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="1851:1928" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="2208:2240" ph="..." />
+                <marker date="1513499221000" expanded="true" signature="3404:3486" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bestchange.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/bestchange.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="9" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <marker date="1513022490000" expanded="true" signature="2289:2353" ph="..." />
+                <marker date="1513022490000" expanded="true" signature="2435:2467" ph="..." />
+                <marker date="1513022490000" expanded="true" signature="2575:2640" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>errors</find>
+      <find>requ</find>
+      <find>mys</find>
+      <find>price</find>
+      <find>local</find>
+      <find>spooky_params</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +182,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/analysis/cybermoney.js" />
+        <option value="$PROJECT_DIR$/analysis/package.json" />
+        <option value="$PROJECT_DIR$/analysis/node_modules/casperjs/package.json" />
+        <option value="$PROJECT_DIR$/analysis/run2.js" />
+        <option value="$PROJECT_DIR$/composetest/app.py" />
+        <option value="$PROJECT_DIR$/composetest/Dockerfile" />
+        <option value="$PROJECT_DIR$/composetest/requirements.txt" />
+        <option value="$PROJECT_DIR$/nodock/README.md" />
+        <option value="$PROJECT_DIR$/composetest/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/d/package.json" />
+        <option value="$PROJECT_DIR$/d/index.js" />
+        <option value="$PROJECT_DIR$/d/cybermoney.js" />
+        <option value="$PROJECT_DIR$/d/localbitcoins.js" />
+        <option value="$PROJECT_DIR$/d/analysis.js" />
+        <option value="$PROJECT_DIR$/d/run.js" />
+        <option value="$PROJECT_DIR$/d/bestchange2.js" />
+        <option value="$PROJECT_DIR$/d/bestchange.js" />
       </list>
     </option>
   </component>
@@ -43,14 +209,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/d/node_modules" />
     <handled-path value="$PROJECT_DIR$/ps/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="43" />
-    <option name="width" value="1388" />
-    <option name="height" value="837" />
+    <option name="x" value="32" />
+    <option name="y" value="23" />
+    <option name="width" value="1408" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -68,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,16 +243,82 @@
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="analysis" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="composetest" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="d" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="nodock" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="nodock" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="nginx" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="nodock" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="node" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="nodock" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rabbitmq" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ps" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="investbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analysis" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,34 +345,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513061652561</updated>
-      <workItem from="1513061660709" duration="4825000" />
+      <workItem from="1513061660709" duration="6829000" />
+      <workItem from="1513127730608" duration="2708000" />
+      <workItem from="1513148385888" duration="445000" />
+      <workItem from="1513149142735" duration="373000" />
+      <workItem from="1513151781856" duration="115000" />
+      <workItem from="1513152097223" duration="4852000" />
+      <workItem from="1513324101928" duration="2340000" />
+      <workItem from="1513329004374" duration="3123000" />
+      <workItem from="1513414001819" duration="1069000" />
+      <workItem from="1513415299591" duration="5191000" />
+      <workItem from="1513485190261" duration="8757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4825000" />
+    <option name="totallyTimeSpent" value="35802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="43" width="1388" height="837" extended-state="0" />
+    <frame x="32" y="23" width="1408" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25402635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32225063" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32225063" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -153,11 +397,509 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/cybermoney.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="29" lean-forward="false" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/cybermoney.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="29" lean-forward="false" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/cybermoney.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="29" lean-forward="false" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/localbitcoins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/analysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/package.json" />
+    <entry file="file://$PROJECT_DIR$/analysis/node_modules/casperjs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/cybermoney.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="29" lean-forward="false" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/node_modules/casperjs/bin/casperjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/run2.js" />
+    <entry file="file://$PROJECT_DIR$/composetest/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composetest/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composetest/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodock/composehub.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ps/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ps/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composetest/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodock/mysql/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodock/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodock/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodock/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1695">
+            <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <folding>
+              <marker date="1513412979000" expanded="true" signature="2604:2607" ph="2" />
+              <marker date="1513412979000" expanded="true" signature="2609:2628" ph="services: [1 item]" />
+              <marker date="1513412979000" expanded="true" signature="2624:2627" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="4015:4018" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="4024:4094" ph="nginx: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4039:4094" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4058:4094" ph="args: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4082:4094" ph="WEB_SSL=true" />
+              <marker date="1513412979000" expanded="true" signature="4432:4435" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="4441:4546" ph="nginx: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4456:4546" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4475:4546" ph="args: &lt;2 items&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4499:4511" ph="WEB_SSL=true" />
+              <marker date="1513412979000" expanded="true" signature="4530:4546" ph="SELF_SIGNED=true" />
+              <marker date="1513412979000" expanded="true" signature="4765:4768" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="4774:4844" ph="nginx: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4789:4844" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4808:4844" ph="args: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4832:4844" ph="WEB_SSL=true" />
+              <marker date="1513412979000" expanded="true" signature="4849:4942" ph="certbot: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4866:4942" ph="environment: &lt;2 items&gt;" />
+              <marker date="1513412979000" expanded="true" signature="4893:4907" ph="CN=example.com" />
+              <marker date="1513412979000" expanded="true" signature="4922:4942" ph="EMAIL=fake@gmail.com" />
+              <marker date="1513412979000" expanded="true" signature="5332:5335" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="5341:5456" ph="nginx: &lt;2 keys&gt;" />
+              <marker date="1513412979000" expanded="true" signature="5356:5413" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="5397:5413" ph="-NO_DEFAULT=true" />
+              <marker date="1513412979000" expanded="true" signature="5422:5456" ph="ports: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="5443:5456" ph="10000:10000" />
+              <marker date="1513412979000" expanded="true" signature="6022:6025" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="6031:6183" ph="node2: &lt;2 keys&gt;" />
+              <marker date="1513412979000" expanded="true" signature="6079:6083" ph="node" />
+              <marker date="1513412979000" expanded="true" signature="6153:6183" ph="run-nodoc…ernate.js&quot;" />
+              <marker date="1513412979000" expanded="true" signature="6231:6366" ph="nginx: &lt;2 keys&gt;" />
+              <marker date="1513412979000" expanded="true" signature="6246:6280" ph="ports: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="6267:6280" ph="10000:10000" />
+              <marker date="1513412979000" expanded="true" signature="6340:6366" ph="links: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="6361:6366" ph="node2" />
+              <marker date="1513412979000" expanded="true" signature="7215:7218" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="7224:7290" ph="node: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7238:7290" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7257:7290" ph="args: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7281:7290" ph="YARN=true" />
+              <marker date="1513412979000" expanded="true" signature="7433:7436" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="7442:7493" ph="node: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7468:7493" ph="run-nodoc…e main.js&quot;" />
+              <marker date="1513412979000" expanded="true" signature="7704:7707" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="7713:7790" ph="node: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7727:7790" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7746:7790" ph="args: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7770:7790" ph="NODE_ENV=development" />
+              <marker date="1513412979000" expanded="true" signature="7974:7977" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="7983:8058" ph="node: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="7997:8058" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8016:8058" ph="args: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8040:8058" ph="NODE_VERSION=4.6.0" />
+              <marker date="1513412979000" expanded="true" signature="8487:8490" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="8496:8575" ph="node: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8510:8575" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8529:8575" ph="args: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8565:8575" ph="somefolder" />
+              <marker date="1513412979000" expanded="true" signature="8754:8757" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="8763:8934" ph="mysql: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8778:8934" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8797:8934" ph="args: &lt;3 items&gt;" />
+              <marker date="1513412979000" expanded="true" signature="8821:8852" ph="MYSQL_DAT…t_database" />
+              <marker date="1513412979000" expanded="true" signature="8871:8894" ph="MYSQL_USE…fault_user" />
+              <marker date="1513412979000" expanded="true" signature="8913:8934" ph="MYSQL_PAS…ORD=secret" />
+              <marker date="1513412979000" expanded="true" signature="9118:9121" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="9127:9212" ph="nginx: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="9142:9212" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="9161:9212" ph="args: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="9185:9212" ph="WEB_REVER…_PORT=8080" />
+              <marker date="1513412979000" expanded="true" signature="9575:9578" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="9585:9701" ph="workspace: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="9604:9701" ph="build: &lt;2 keys&gt;" />
+              <marker date="1513412979000" expanded="true" signature="9632:9643" ph="./workspace" />
+              <marker date="1513412979000" expanded="true" signature="9656:9701" ph="args: &lt;1 item&gt;" />
+              <marker date="1513412979000" expanded="true" signature="9680:9701" ph="TZ=&quot;Ameri…/New_York&quot;" />
+              <marker date="1513412979000" expanded="true" signature="10042:10045" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="10051:10161" ph="rabbitmq: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="10069:10161" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="10088:10161" ph="args: &lt;2 items&gt;" />
+              <marker date="1513412979000" expanded="true" signature="10112:10127" ph="MANAGEMENT=true" />
+              <marker date="1513412979000" expanded="true" signature="10146:10161" ph="FEDERATION=true" />
+              <marker date="1513412979000" expanded="true" signature="10280:10283" ph="..." />
+              <marker date="1513412979000" expanded="true" signature="10289:10435" ph="rabbitmq: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="10307:10435" ph="build: &lt;1 key&gt;" />
+              <marker date="1513412979000" expanded="true" signature="10326:10435" ph="args: &lt;2 items&gt;" />
+              <marker date="1513412979000" expanded="true" signature="10350:10383" ph="RABBITMQ_…ustom_user" />
+              <marker date="1513412979000" expanded="true" signature="10402:10435" ph="RABBITMQ_…ustom_pass" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodock/node/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/bestchange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <marker date="1513022490000" expanded="true" signature="2289:2353" ph="..." />
+            <marker date="1513022490000" expanded="true" signature="2435:2467" ph="..." />
+            <marker date="1513022490000" expanded="true" signature="2575:2640" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="1325" lean-forward="false" selection-start-line="4" selection-start-column="1325" selection-end-line="4" selection-end-column="1325" />
+          <folding>
+            <marker date="1513499236000" expanded="true" signature="745302:745322" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="46" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/localbitcoins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="115" column="37" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/analysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2534">
+          <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+          <folding>
+            <marker date="1513499221000" expanded="true" signature="595:612" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="748:785" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="832:908" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="967:1044" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="1102:1179" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="1240:1317" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="1377:1480" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="1538:1645" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="1702:1798" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="1851:1928" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="2208:2240" ph="..." />
+            <marker date="1513499221000" expanded="true" signature="3404:3486" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/cybermoney.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="151" column="10" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="10" />
+          <folding>
+            <marker date="1513498064000" expanded="true" signature="1465:1482" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="1522:1558" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="1578:1615" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="1667:1704" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="1749:1786" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="1831:1868" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="1870:1876" ph=" " />
+            <marker date="1513498064000" expanded="true" signature="1876:1882" ph=" " />
+            <marker date="1513498064000" expanded="true" signature="1882:1888" ph=" " />
+            <marker date="1513498064000" expanded="true" signature="1930:1967" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="1969:1975" ph=" " />
+            <marker date="1513498064000" expanded="true" signature="1975:1981" ph=" " />
+            <marker date="1513498064000" expanded="true" signature="1981:1987" ph=" " />
+            <marker date="1513498064000" expanded="true" signature="2401:2433" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="2934:2990" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="3972:4057" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="4141:4226" ph="..." />
+            <marker date="1513498064000" expanded="true" signature="4314:4389" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/bestchange2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <marker date="1513504177000" expanded="true" signature="2813:2845" ph="..." />
+            <marker date="1513504177000" expanded="true" signature="2931:2999" ph="..." />
+            <marker date="1513504177000" expanded="true" signature="3090:3159" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/bestchange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="39" column="97" lean-forward="false" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+          <folding>
+            <marker date="1513504194000" expanded="true" signature="2776:2840" ph="..." />
+            <marker date="1513504194000" expanded="true" signature="2922:2954" ph="..." />
+            <marker date="1513504194000" expanded="true" signature="3062:3127" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
