@@ -79,14 +79,14 @@ function cybermoney() {
                         percent = rows[c]['curs1'];
                     }
                     if (rows[c]['id'] == 23) {//23 Яндекс.Деньги RUB → Bitcoin BTC
-                        prices['price_parser_buy'] = 1/ rows[c]['curs2'] * rows[c]['curs1'];
+                        prices['price_parser_buy'] = 1 / rows[c]['curs2'] * rows[c]['curs1'];
                     }
 
                     if (rows[c]['id'] == 22 || rows[c]['id'] == 28) {
                         var price = rows[c]['curs2'] * rows[c]['curs1'];
                     }
                     if (rows[c]['id'] == 23 || rows[c]['id'] == 27) {
-                        var price = 1/rows[c]['curs2'] * rows[c]['curs1'];
+                        var price = 1 / rows[c]['curs2'] * rows[c]['curs1'];
                         percent2 = rows[c]['curs1'];
                     }
 
@@ -104,23 +104,23 @@ function cybermoney() {
 
             connection.query('SELECT price_cron from `upd_naps` WHERE price_cron!=0 ORDER BY id DESC LIMIT 1', function (err, rows, fields) {
                 if (!err) {
-                    console.log("price_cron  " + rows[0]["price_cron"]);
+                    // console.log("price_cron  " + rows[0]["price_cron"]);
                     var prices = rows[0]["price_cron"].split("|");
-                    console.log("price_cron  " + prices[0] * percent + " == " + 1 / (prices[1] * percent2));
+                    //console.log("price_cron  " + prices[0] * percent + " == " + 1 / (prices[1] * percent2));
                     prices['price_parser_sell'] = prices[0] * percent;
                     prices['price_parser_buy'] = prices[1] * percent2;
                 }
 
             });
-                console.log("..........................." +  prices['price_parser_buy']);
+            //   console.log("..........................." +  prices['price_parser_buy']);
             connection.query('INSERT INTO `upd_naps`(`id`, `price_parser_sell`, `price_parser_buy`, `price_localbitcoins_buy`, `price_localbitcoins_sell`, `price_bestchange_buy`, `price_bestchange_sell`, `price_new_sell`, `price_new_buy`, `price_cron`, `upd_time`) VALUES (NULL, "' +
                 prices['price_parser_sell'].toFixed(2) + '", "' +
                 prices['price_parser_buy'].toFixed(2) + '", "0","0","0","0","0","0","0",NOW())', function (err, rows, fields) {
                 if (!err) {
-                    var str = 'Создана новая запись в таблице `upd_naps` id : ';
+                    //var str = 'Создана новая запись в таблице `upd_naps` id : ';
                     prices['last_id'] = rows.insertId;
                     //console.log('<br/> ', str + prices['last_id']);
-                    str += str + prices['last_id'];
+                    //str += str + prices['last_id'];
                     //res.send(str);
                 }
                 else
@@ -149,4 +149,4 @@ function cybermoney() {
 }
 
 module.exports = cybermoney;
-cybermoney();
+//cybermoney();

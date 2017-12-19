@@ -8,7 +8,7 @@ var connection = mysql.createPool({
 });
 
 function bestchange2(params) {
-    console.log("bestchange2");
+    //console.log("bestchange2");
     var spooky_params = [params["link_bestchange_buy"],
         params["reserv_min_btc"],
         params["exchange_min_review"]];
@@ -48,8 +48,7 @@ function bestchange2(params) {
 
         spooky.start(url);
         spooky.then([{params: spooky_params}, function () {
-            console.log(222);
-            this.capture('screenshots/amazon-search-3.png');
+            //this.capture('screenshots/amazon-search-3.png');
             this.emit('hello', '<meta charset="UTF-8"> ' + this.evaluate(function (params) {
                 // var s = document.querySelector("#rates_block .bi").innerHTML.replace(/[^.\d]+/g, "").replace(/^([^\.]*\.)|\./g, '$1');
                 var p = $("#content_table").find("tbody").find("tr").find(".ar").prev().prev();//price
@@ -89,9 +88,9 @@ function bestchange2(params) {
     // Uncomment this block to see all of the things Casper has to say.
     // There are a lot.
     // He has opinions.
-    spooky.on('console', function (line) {
+/*    spooky.on('console', function (line) {
         console.log(line);
-    });
+    });*/
 
 
     spooky.on('hello', function (greeting) {
@@ -105,7 +104,6 @@ function bestchange2(params) {
         if (params["step_size_percent"]) {//1000*35:100=350 рублей
             var price_new = g[1] / 1 - g[1] / 1 * params["step_size_percent"] / 100;
         }
-
 
         var price_parser = 0;
         //SELECT price_cron from upd_naps WHERE price_cron!=0 ORDER BY id DESC LIMIT 1
@@ -126,12 +124,12 @@ function bestchange2(params) {
             }
             else {
                 report += err;
-                console.log("bestchange2 err: " + err);
+                //console.log("bestchange2 err: " + err);
             }
 
             fs.appendFile("report_temp.html", report, function (error) {
                 if (error) throw error; // если возникла ошибка
-                console.log("bestchange2 report");
+                //console.log("bestchange2 report");
             });
 
         });

@@ -10,7 +10,7 @@ function analysis(params) {
     });
 
     var naps = '';
-    console.log("start analysis ");
+    //console.log("start analysis ");
     var check = 0;
     connection.query('SELECT * from upd_naps ORDER BY id DESC LIMIT 700', function (err, rows, fields) {
 
@@ -69,7 +69,7 @@ function analysis(params) {
             }
             str += '</table>';
 
-            console.log("analysis before update");
+           // console.log("analysis before update");
 
 
         } else {
@@ -79,11 +79,11 @@ function analysis(params) {
 
         fs.appendFile("report_temp.html", str, function (error) {
             if (error) throw error; // если возникла ошибка
-            console.log("analysis report");
+           // console.log("analysis report");
             var data = fs.readFileSync("report_temp.html", "utf8");
             fs.writeFile("report.html", data, function (error) {
                 if (error) throw error; // если возникла ошибка
-                console.log("report.html");
+               // console.log("report.html");
             });
             //console.log(data);  // выводим считанные данные
         });
@@ -147,14 +147,14 @@ function analysis(params) {
                 "</rates>";
             fs.writeFile("export.xml", e, function (error) {
                 if (error) throw error; // если возникла ошибка
-                console.log("export.xml");
+               // console.log("export.xml");
             });
 
             fs.writeFile("prices.html", s, function (error) {
                 if (error) throw error; // если возникла ошибка
-                console.log("prices.html");
+               // console.log("prices.html");
             });
-            console.log(s);
+           // console.log(s);
             connection.query('UPDATE `rwil_naps` SET curs2="' + price_new_sell + '" WHERE id = 22 OR id = 28 ', function (err, rows, fields) {
                 if (err) console.log(err);
             });
@@ -173,4 +173,4 @@ function analysis(params) {
 
 module.exports = analysis;
 
-analysis();
+//analysis();

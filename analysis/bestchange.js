@@ -19,7 +19,7 @@ function bestchange(params) {
         params["exchange_min_review"]];
 
     var url = params["link_bestchange_sell"];
-    console.log("============== " + url);
+    //console.log("============== " + url);
 
     var connection = mysql.createConnection({
         host: process.env.CB_HOST,
@@ -64,7 +64,7 @@ function bestchange(params) {
                 var str = '<div id="rates_block" style="height:300px; overflow-y: scroll">' + $("#rates_block").html() + '</div>';
                 return str.replace(search_pattern, "<span style='background-color:#b9def0; border:1px dotted #04b0db; padding:5px;'>" +
                     string + "</span>")
-                    .replace("<img ", "<span") + marker + "|||" + string ;
+                    .replace("<img ", "<span") + marker + "|||" + string;
 
             }, {params: params}));
         }]);
@@ -80,17 +80,17 @@ function bestchange(params) {
         }
     });
 
-/*    // Uncomment this block to see all of the things Casper has to say.
-    // There are a lot.
-    // He has opinions.
-    spooky.on('console', function (line) {
-        console.log(line);
-    });*/
+    /*    // Uncomment this block to see all of the things Casper has to say.
+        // There are a lot.
+        // He has opinions.
+        spooky.on('console', function (line) {
+            console.log(line);
+        });*/
 
     spooky.on('hello', function (greeting) {
         var g = greeting.split("|||");
         var url = params["link_bestchange_sell"];
-        console.log('params["step_size_rub"] ' + params["step_size_rub"]);
+        //console.log('params["step_size_rub"] ' + params["step_size_rub"]);
         var report = "<h3><a target='_blank' href='" + url + "'>" + url + "</a></h3>" + g[0];
         var price = g[1] / 1;
         if (params["step_size_rub"]) {
@@ -123,7 +123,7 @@ function bestchange(params) {
                 fs.appendFile("report_temp.html", report, function (error) {
 
                     if (error) throw error; // если возникла ошибка
-                    console.log("bestchange report");
+                    // console.log("bestchange report");
                     /*  var data = fs.readFileSync("report_temp.html", "utf8");
                       console.log(data);  // выводим считанные данные*/
                 });

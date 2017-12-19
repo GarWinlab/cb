@@ -1,4 +1,4 @@
- var localbitcoins = require('./localbitcoins'),
+var localbitcoins = require('./localbitcoins'),
     cybermoney = require('./cybermoney'),
     bestchange = require('./bestchange'),
     bestchange2 = require('./bestchange2'),
@@ -22,23 +22,23 @@ try {
         if (!err) {
             params = rows[0];
             //var url = "https://localbitcoins.com/places/570819/moscow-ru/";
-      /*      request({url: rows[0]["link_localbitcoins"], method: 'HEAD'}, function (err, res) {
-                if (err) {
-                    console.log("localbitcoins request error");
-                } else {
-                    if (/4\d\d/.test(res.statusCode) === false) {
-                        if (res.statusCode == 200) {
-                            if (!errors) {
-                                    localbitcoins(params);
-                            }
-                            console.log(200);
-                        } else {
-                            console.log(400 + " === " + res.statusCode);
-                        }
+            /*      request({url: rows[0]["link_localbitcoins"], method: 'HEAD'}, function (err, res) {
+                      if (err) {
+                          console.log("localbitcoins request error");
+                      } else {
+                          if (/4\d\d/.test(res.statusCode) === false) {
+                              if (res.statusCode == 200) {
+                                  if (!errors) {
+                                          localbitcoins(params);
+                                  }
+                                  console.log(200);
+                              } else {
+                                  console.log(400 + " === " + res.statusCode);
+                              }
 
-                    }
-                }
-            });*/
+                          }
+                      }
+                  });*/
         }
     });
     setTimeout(function () {
@@ -53,13 +53,13 @@ setTimeout(function () {
         if (!errors) {
             request({url: params["link_bestchange_sell"], method: 'HEAD'}, function (err, res) {
                 if (err) {
-                    console.log("bestchange request error");
+                    // console.log("bestchange request error");
                     errors++;
                 } else {
                     if (/4\d\d/.test(res.statusCode) === false) {
                         if (res.statusCode == 200) {
                             bestchange(params);
-                            console.log(200);
+                            //   console.log(200);
                         }
                     }
                 }
@@ -81,7 +81,7 @@ setTimeout(function () {
                 if (/4\d\d/.test(res.statusCode) === false) {
                     if (res.statusCode == 200) {
                         bestchange2(params);
-                        console.log(200);
+                        // console.log(200);
                     }
                 }
             }
