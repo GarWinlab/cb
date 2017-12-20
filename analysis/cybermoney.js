@@ -30,19 +30,7 @@ function cybermoney() {
     connection.query('SELECT id, tech_name, naps_name, curs1, curs2 from rwil_naps', function (err, rows, fields) {
         if (!err) {
             //console.log('The fields is: ', fields);
-            var str = '<meta charset="UTF-8">' +
-                '<head>\n' +
-                '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>\n' +
-                '</head>' +
-                '<script>' +
-                '  $(function() {\n' +
-                'setInterval("location.reload();",180000);' +
-                '' +
-                '//$( "#b" ).load( "prices.html" );\n' +
-                '' +
-                '' +
-                '  });' +
-                '</script><div id="b"></div><table style="border:1px solid;">';
+            var str = '<div id="b"></div><table style="border:1px solid;">';
             str += '<tr><td style="width:30px;  padding:5px; float:left">id</td><td style="width:380px;  padding:5px; float:left"> ' +
                 'Направление </td><td style="width:100px;  padding:5px; float:left">курс 1</td>' +
                 '<td style="width:100px;  padding:5px; float:left">курс 2</td>' +

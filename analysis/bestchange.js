@@ -85,13 +85,17 @@ function bestchange(params) {
         // He has opinions.
         spooky.on('console', function (line) {
             console.log(line);
-        });*/
+        });
+                */
 
     spooky.on('hello', function (greeting) {
         var g = greeting.split("|||");
         var url = params["link_bestchange_sell"];
-        //console.log('params["step_size_rub"] ' + params["step_size_rub"]);
-        var report = "<h3><a target='_blank' href='" + url + "'>" + url + "</a></h3>" + g[0];
+
+        var report = '' +
+            '' +
+            '' +
+            "<h3><a target='_blank' href='" + url + "'>" + url + "</a></h3>" + g[0];
         var price = g[1] / 1;
         if (params["step_size_rub"]) {
             var price_new = g[1] / 1 + params["step_size_rub"];
