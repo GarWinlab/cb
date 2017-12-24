@@ -24,7 +24,7 @@ function analysis(params) {
                 '    <div class="mbr-section__container container mbr-section__container--first" style="padding-top: 93px;">\n' +
                 '        <div class="mbr-header mbr-header--wysiwyg row">\n' +
                 '            <div class="col-sm-8 col-sm-offset-2">\n' +
-                '                <h3 class="mbr-header__text">MODERN STYLES</h3>\n' +
+                '                <h3 class="mbr-header__text">Сравнение цен</h3>\n' +
                 '                \n' +
                 '            </div>\n' +
                 '        </div>\n' +
@@ -33,7 +33,7 @@ function analysis(params) {
                 '        <div class="row">\n' +
                 '' +
                 '<meta charset="UTF-8"><table style="border:1px solid;">';
-            str += '<h3>Сравнение цен на cyber.money - localbitcoins.com - bestchange.ru</h3>';
+            str += '<h3>cyber.money - localbitcoins.com - bestchange.ru</h3>';
             str += '<tr><td style="width:120px;  padding:5px; float:left"> ' +
                 'Анализ </td><td style="width:120px; font-size:12px; border:2px solid white; padding:5px; float:left">cyber.money btc sell</td>' +
                 '<td style="width:115px;  padding:5px; font-size:12px; border:2px solid white; float:left">cyber.money btc buy</td>' +
@@ -97,7 +97,7 @@ function analysis(params) {
                 '' +
                 '<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-g" data-rv-view="3" style="background-color: rgb(68, 68, 68);">\n' +
                 '    \n' +
-                '    <div class="mbr-section__container container">\n' +
+                '    <div   class="mbr-section__container container">\n' +
                 '        <div class="mbr-footer mbr-footer--wysiwyg row" style="padding-top: 36.9px; padding-bottom: 36.9px;">\n' +
                 '            <div class="col-sm-12">\n' +
                 '                <p class="mbr-footer__copyright"></p>\n' +
@@ -119,9 +119,6 @@ function analysis(params) {
                 '  \n' +
                 '  \n' +
                 '</body>';
-            //console.log('<h3>Сравнение цен на cyber.money - localbitcoins.com - bestchange.ru</h3>', str);
-//SELECT id, tech_name, naps_name, curs1, curs2 from rwil_naps
-
 
             console.log("analysis before update");
             /*    connection.query('UPDATE rwil_naps SET curs2 = col1  WHERE id = 22', function (err, rows, fields) {
@@ -183,7 +180,17 @@ function analysis(params) {
             '                <div class="hamburger-icon"></div>\n' +
             '            </button>\n' +
             '\n' +
-            '            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar"><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="https://mobirise.com/">FEATURES</a><div class="dropdown-menu"><a class="dropdown-item" href="https://mobirise.com/">Mobile friendly</a><a class="dropdown-item" href="https://mobirise.com/">Based on Bootstrap</a><div class="dropdown"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="https://mobirise.com/">Trendy blocks</a><div class="dropdown-menu dropdown-submenu"><a class="dropdown-item" href="https://mobirise.com/">Image/content slider</a><a class="dropdown-item" href="https://mobirise.com/">Contact forms</a><a class="dropdown-item" href="https://mobirise.com/">Image gallery</a><a class="dropdown-item" href="https://mobirise.com/">Mobile menu</a><a class="dropdown-item" href="https://mobirise.com/">Google maps</a><a class="dropdown-item" href="https://mobirise.com/">Social buttons</a><a class="dropdown-item" href="https://mobirise.com/">Google fonts</a><a class="dropdown-item" href="https://mobirise.com/">Video background</a></div></div><a class="dropdown-item" href="https://mobirise.com/">Host anywhere</a></div></li><li class="nav-item"><a class="nav-link link" href="https://mobirise.com/">HELP</a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-default btn-default-outline" href="https://mobirise.com/">FOR WINDOWS</a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-danger" href="https://mobirise.com/">FOR MAC</a></li></ul>\n' +
+            '            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">' +
+            '<li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="https://mobirise.com/">FEATURES</a>' +
+            '<div class="dropdown-menu">' +
+            '<a class="dropdown-item" href="https://mobirise.com/">Localbitcoins</a>' +
+            '<a class="dropdown-item" href="https://mobirise.com/">Bestchange sell</a>' +
+            '<a class="dropdown-item" href="https://mobirise.com/">Bestchange buy</a>' +
+            '<a class="dropdown-item" href="https://mobirise.com/">log</a>' +
+            '</div>' +
+            '</li>' +
+            '<li class="nav-item nav-btn"><a class="nav-link btn btn-default" target="_blank" href="http://cyber.money/analysis/export.xml">XML</a></li>' +
+            '<li class="nav-item nav-btn"><a class="nav-link btn btn-default" target="_blank" href="http://cyber.money/analysis/prices.html">JSON</a></li></ul>\n' +
             '\n' +
             '        </div>\n' +
             '\n' +

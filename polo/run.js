@@ -1,10 +1,16 @@
 var getpairs = require('./getpairs'),
+    checkorders = require('./checkorders'),
     buy = require('./buy')
 
 var params = {}
-params.pairs = 2 //Maximum number of traded pairs
-params.balance = 0.07 //BTC
-params.profit = 0.02 //%
+//change for best result
+
+params.livetrade = 0 // if you need only advice livetrade = 0, real orders livetrade = 1
+params.pairs = 5 // Maximum pairs number
+params.balance = 0.02 // BTC
+params.profit = 0.03 // 0.02 is 2%
+params.depth = 20 // 0.02 is 2%
+
 params.ticker_ = []
 params.close_orders = []
 params.orderNumbers = []
@@ -13,4 +19,5 @@ params.polo_secret = "7eab4caaf4efc029569b872fc0c9f6eab0623f7b47dd1726725abe9fe0
 
 
 getpairs(params)
-buy(params)
+checkorders(params)
+//buy(params)

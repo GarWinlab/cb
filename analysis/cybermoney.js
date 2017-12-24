@@ -30,7 +30,14 @@ function cybermoney() {
     connection.query('SELECT id, tech_name, naps_name, curs1, curs2 from rwil_naps', function (err, rows, fields) {
         if (!err) {
             //console.log('The fields is: ', fields);
-            var str = '<div id="b"></div><table style="border:1px solid;">';
+            var str = '' +
+                '' +
+                '<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-after-navbar" id="pricing-table1-j" data-rv-view="7" style="background-color: rgb(240, 240, 240);">\n' +
+                '    \n' +
+                '    <div class="mbr-section__container mbr-section__container--std-top-padding container" style="padding-top: 93px; margin-bottom: 0px;">\n' +
+                '        <div class="row">' +
+                '' +
+                '<h3>Направления обмена cyber.money</h3><div id="b"></div><table style="border:1px solid;">';
             str += '<tr><td style="width:30px;  padding:5px; float:left">id</td><td style="width:380px;  padding:5px; float:left"> ' +
                 'Направление </td><td style="width:100px;  padding:5px; float:left">курс 1</td>' +
                 '<td style="width:100px;  padding:5px; float:left">курс 2</td>' +
@@ -88,7 +95,11 @@ function cybermoney() {
 
                 }
             }
-            str += '</table>';
+            str += '</table>' +
+                '' +
+                '        </div>\n' +
+                '    </div>\n' +
+                '</section>\n';
 
             connection.query('SELECT price_cron from `upd_naps` WHERE price_cron!=0 ORDER BY id DESC LIMIT 1', function (err, rows, fields) {
                 if (!err) {
@@ -117,7 +128,7 @@ function cybermoney() {
                 //console.log(err);
             });
 
-            fs.writeFile("report_temp.html", '<h3>Направления обмена cyber.money</h3>' + str, function (error) {
+            fs.writeFile("report_temp.html", str, function (error) {
                 if (error) throw error;
             });
 
