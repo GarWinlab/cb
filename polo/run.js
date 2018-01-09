@@ -5,10 +5,11 @@ var getpairs = require('./getpairs'),
 var params = {}
 //change for best result
 
-params.livetrade = 0 // if you need only advice livetrade = 0, real orders livetrade = 1
+params.livetrade = 1 // if you need only advice livetrade = 0, real orders livetrade = 1
 params.pairs = 5 // Maximum pairs number
-params.balance = 0.02 // BTC
+params.balance = 0.014 // BTC
 params.profit = 0.03 // 0.02 is 2%
+params.stop_loss = 0.03 // 0.02 is 2%
 params.depth = 20 // 0.02 is 2%
 
 params.ticker_ = []

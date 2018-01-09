@@ -19,7 +19,7 @@ function cybermoney() {
     var percent = 0;
     var percent2 = 0;
 
-    var connection = mysql.createConnection({
+    var connection = mysql.createPool({
         host: process.env.CB_HOST,
         user: process.env.CB_USER,
         password: process.env.CB_PASS,

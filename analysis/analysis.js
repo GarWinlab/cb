@@ -1,8 +1,8 @@
-var mysql = require('mysql');
+var mysql = require('/var/www/html/analysis/node_modules/mysql');
 var fs = require("fs");
 
 function analysis(params) {
-    var connection = mysql.createConnection({
+    var connection = mysql.createPool({
         host: process.env.CB_HOST,
         user: process.env.CB_USER,
         password: process.env.CB_PASS,
@@ -12,14 +12,16 @@ function analysis(params) {
     var naps = '';
     console.log("start analysis ");
     var check = 0;
-    connection.query('SELECT * from upd_naps ORDER BY id DESC LIMIT 700', function (err, rows, fields) {
+    connection.query('SELECT * from upd_naps ORDER BY id DESC LIMIT 100', function (err, rows, fields) {
 
         if (!err) {
             var exp_sell = 0;
             var exp_buy = 0;
+            var price_parser_sell = 0;
+            var price_parser_buy = 0;
             var str = '' +
                 '' +
-                '        <section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="msg-box3-n" data-rv-view="19" style="background-color: rgb(255, 255, 255);">\n' +
+                '        <section id="analysis" class="mbr-section mbr-section--relative mbr-section--fixed-size" id="msg-box3-n" data-rv-view="19" style="background-color: rgb(255, 255, 255);">\n' +
                 '    \n' +
                 '    <div class="mbr-section__container container mbr-section__container--first" style="padding-top: 93px;">\n' +
                 '        <div class="mbr-header mbr-header--wysiwyg row">\n' +
@@ -58,6 +60,12 @@ function analysis(params) {
                     if (i == 'price_new_buy') {
                         exp_buy = rows[c]["price_new_buy"] / 1;
                     }
+                    if (i == 'price_parser_sell') {
+                        price_parser_sell = rows[c]["price_parser_sell"] / 1;
+                    }
+                    if (i == 'price_parser_buy') {
+                        price_parser_buy = rows[c]["price_parser_buy"] / 1;
+                    }
                     var mark = "";
 
                     if (rows[c]["price_parser_sell"] / 1 != 0 && rows[c]["price_parser_sell"] / 1 != rows[c]["price_new_sell"] / 1 && i == 'price_new_sell') {
@@ -86,13 +94,6 @@ function analysis(params) {
                 '' +
                 '        </div>\n' +
                 '    </div>\n' +
-                '    <div class="mbr-section__container container mbr-section__container--last" style="padding-bottom: 93px;">\n' +
-                '        <div class="row">\n' +
-                '            <div class="col-sm-8 col-sm-offset-2">\n' +
-                '                <div class="mbr-buttons mbr-buttons--center"><a class="mbr-buttons__btn btn btn-lg btn-default" href="https://mobirise.com">SEE ALL TEMPLATES</a></div>\n' +
-                '            </div>\n' +
-                '        </div>\n' +
-                '    </div>\n' +
                 '</section>' +
                 '' +
                 '<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-g" data-rv-view="3" style="background-color: rgb(68, 68, 68);">\n' +
@@ -119,19 +120,6 @@ function analysis(params) {
                 '  \n' +
                 '  \n' +
                 '</body>';
-
-            console.log("analysis before update");
-            /*    connection.query('UPDATE rwil_naps SET curs2 = col1  WHERE id = 22', function (err, rows, fields) {
-                    if (!err) {
-                        //UPDATE t1 SET col1 = col1 + 1, col2 = col1;
-                        // console.log('<h3>Сравнение цен на cyber.money - localbitcoins.com - bestchange.ru</h3>', str);
-                    }
-                    else {
-                        console.log("analysis err" . err);
-                    }
-                });*/
-
-
         } else {
             var str = err;
             // console.log(err);
@@ -183,10 +171,10 @@ function analysis(params) {
             '            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">' +
             '<li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="https://mobirise.com/">FEATURES</a>' +
             '<div class="dropdown-menu">' +
-            '<a class="dropdown-item" href="https://mobirise.com/">Localbitcoins</a>' +
-            '<a class="dropdown-item" href="https://mobirise.com/">Bestchange sell</a>' +
-            '<a class="dropdown-item" href="https://mobirise.com/">Bestchange buy</a>' +
-            '<a class="dropdown-item" href="https://mobirise.com/">log</a>' +
+       /*     '<a class="dropdown-item" href="#localbitcoins">Localbitcoins</a>' +
+            '<a class="dropdown-item" href="#bsell">Bestchange sell</a>' +
+            '<a class="dropdown-item" href="#bbuy">Bestchange buy</a>' +*/
+            '<a class="dropdown-item" href="#analysis">Анализ</a>' +
             '</div>' +
             '</li>' +
             '<li class="nav-item nav-btn"><a class="nav-link btn btn-default" target="_blank" href="http://cyber.money/analysis/export.xml">XML</a></li>' +
@@ -218,6 +206,7 @@ function analysis(params) {
             '                            </div>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
+            '                    <div class="mbr-plan__details"><ul><li><strong>MAX</strong> 0 </li><li><strong>MIN</strong>  0 </li></ul></div>\n' +
             '                </div>\n' +
             '            </div>\n' +
             '            <div class="mbr-plan col-xs-12 mbr-plan--success col-md-3 col-sm-6">\n' +
@@ -236,8 +225,12 @@ function analysis(params) {
             '                            </div>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
+            '                    <div class="mbr-plan__details"><ul><li><strong>MAX</strong> 0 </li><li><strong>MIN</strong>  0 </li></ul></div>\n' +
             '                </div>\n' +
             '            </div>\n' +
+            '' +
+            '' +
+            '' +
             '            <div class="mbr-plan col-xs-12 mbr-plan--danger mbr-plan--favorite col-md-3 col-sm-6">\n' +
             '                <div class="mbr-plan__box">\n' +
             '                    <div class="mbr-plan__header">\n' +
@@ -249,19 +242,16 @@ function analysis(params) {
             '                        <div class="mbr-number mbr-number--price">\n' +
             '                            <div class="mbr-number__num">\n' +
             '                                <div class="mbr-number__group">\n' +
-            '                                    <sup class="mbr-number__left">$</sup><span class="mbr-number__value">0</span>\n' +
+            '                                    <sup class="mbr-number__left">‎₽</sup><span class="mbr-number__value">' + price_parser_sell +'</span>\n' +
             '                                </div>\n' +
             '                            </div>\n' +
             '                            <div class="mbr-number__caption">per month</div>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
-            '                    <div class="mbr-plan__details"><ul><li><strong>100 GB</strong> Storage</li><li><strong>Unlimited</strong> Users</li><li><strong>50 GB</strong> Bandwidth</li></ul></div>\n' +
-            '                    <div class="mbr-plan__buttons">\n' +
-            '                        <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">DEMO LINK</a></div>\n' +
-            '                    </div>\n' +
+            '                    <div class="mbr-plan__details"><ul><li><strong>MAX</strong> 0 </li><li><strong>MIN</strong>  0 </li></ul></div>\n' +
             '                </div>\n' +
             '            </div>\n' +
-            '            <div class="mbr-plan col-xs-12 mbr-plan--warning mbr-plan--last col-md-3 col-sm-6">\n' +
+            '            <div class="mbr-plan col-xs-12 mbr-plan--warning mbr-plan--favorite col-md-3 col-sm-6">\n' +
             '                <div class="mbr-plan__box">\n' +
             '                    <div class="mbr-plan__header">\n' +
             '                        <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">\n' +
@@ -272,16 +262,13 @@ function analysis(params) {
             '                        <div class="mbr-number mbr-number--price">\n' +
             '                            <div class="mbr-number__num">\n' +
             '                                <div class="mbr-number__group">\n' +
-            '                                    <sup class="mbr-number__left">$</sup><span class="mbr-number__value">0</span>\n' +
+            '                                    <sup class="mbr-number__left">‎₽</sup><span class="mbr-number__value">' + price_parser_buy +'</span>\n' +
             '                                </div>\n' +
             '                            </div>\n' +
             '                            <div class="mbr-number__caption">per month</div>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
-            '                    <div class="mbr-plan__details"><ul><li><strong>Unlimited</strong> Storage</li><li><strong>Unlimited</strong> Users</li><li><strong>1 TB</strong> Bandwidth</li></ul></div>\n' +
-            '                    <div class="mbr-plan__buttons">\n' +
-            '                        <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">DEMO LINK</a></div>\n' +
-            '                    </div>\n' +
+            '                    <div class="mbr-plan__details"><ul><li><strong>MAX</strong> 0 </li><li><strong>MIN</strong>  0 </li></ul></div>\n' +
             '                </div>\n' +
             '            </div>\n' +
             '            \n' +
@@ -289,91 +276,7 @@ function analysis(params) {
             '    </div>\n' +
             '</section>\n' +
             '\n' +
-            '<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="features1-k" data-rv-view="10" style="background-color: rgb(255, 255, 255);">\n' +
-            '    \n' +
-            '    \n' +
-            '    <div class="mbr-section__container container mbr-section__container--std-top-padding" style="padding-top: 93px;">\n' +
-            '        <div class="mbr-section__row row">\n' +
-            '            <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">\n' +
-            '                <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">\n' +
-            '                    <figure class="mbr-figure"><img src="assets/images/bootstrap.png" class="mbr-figure__img"></figure>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">\n' +
-            '                        <h3 class="mbr-header__text">BOOTSTRAP 3</h3>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-article mbr-article--wysiwyg">\n' +
-            '                        <p>Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.</p>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">\n' +
-            '                    <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">LEARN MORE</a></div>\n' +
-            '                </div>\n' +
-            '            </div>\n' +
-            '            <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">\n' +
-            '                <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">\n' +
-            '                    <figure class="mbr-figure"><img src="assets/images/responsive.png" class="mbr-figure__img"></figure>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">\n' +
-            '                        <h3 class="mbr-header__text">RESPONSIVE</h3>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-article mbr-article--wysiwyg">\n' +
-            '                        <p>One of Bootstrap 3\'s big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.</p>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">\n' +
-            '                    <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">LEARN MORE</a></div>\n' +
-            '                </div>\n' +
-            '            </div>\n' +
-            '            <div class="clearfix visible-sm-block"></div>\n' +
-            '            <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">\n' +
-            '                <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">\n' +
-            '                    <figure class="mbr-figure"><img src="assets/images/google-fonts.png" class="mbr-figure__img"></figure>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">\n' +
-            '                        <h3 class="mbr-header__text">WEB FONTS</h3>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-article mbr-article--wysiwyg">\n' +
-            '                        <p>Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.</p>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">\n' +
-            '                    <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">LEARN MORE</a></div>\n' +
-            '                </div>\n' +
-            '            </div>\n' +
-            '            \n' +
-            '            <div class="mbr-section__col col-xs-12 col-md-3 col-sm-6">\n' +
-            '                <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">\n' +
-            '                    <figure class="mbr-figure"><img src="assets/images/unlimited-websites.png" class="mbr-figure__img"></figure>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">\n' +
-            '                        <h3 class="mbr-header__text">UNLIMITED WEBSITES</h3>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--middle">\n' +
-            '                    <div class="mbr-article mbr-article--wysiwyg">\n' +
-            '                        <p>Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>\n' +
-            '                    </div>\n' +
-            '                </div>\n' +
-            '                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">\n' +
-            '                    <div class="mbr-buttons mbr-buttons--center"><a href="https://mobirise.com" class="mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default">LEARN MORE</a></div>\n' +
-            '                </div>\n' +
-            '            </div>\n' +
-            '            \n' +
-            '            \n' +
-            '            \n' +
-            '        </div>\n' +
-            '    </div>\n' +
-            '</section>';
+            '';
 
         fs.appendFile("report_temp.html", str, function (error) {
             if (error) throw error; // если возникла ошибка

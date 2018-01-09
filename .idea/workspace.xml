@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8728c63d-dfe9-425f-a9b4-4d1ad542f10a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/polo/checkorders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/polo/getorders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/polo/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/polo/stoploss.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/telegram/getbalance.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/telegram/getpairs.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/analysis/analysis.js" afterPath="$PROJECT_DIR$/analysis/analysis.js" />
+      <change beforePath="$PROJECT_DIR$/analysis/bestchange.js" afterPath="$PROJECT_DIR$/analysis/bestchange.js" />
       <change beforePath="$PROJECT_DIR$/analysis/cybermoney.js" afterPath="$PROJECT_DIR$/analysis/cybermoney.js" />
+      <change beforePath="$PROJECT_DIR$/analysis/export.xml" afterPath="$PROJECT_DIR$/analysis/export.xml" />
+      <change beforePath="$PROJECT_DIR$/analysis/prices.html" afterPath="$PROJECT_DIR$/analysis/prices.html" />
       <change beforePath="$PROJECT_DIR$/analysis/report.html" afterPath="$PROJECT_DIR$/analysis/report.html" />
       <change beforePath="$PROJECT_DIR$/analysis/report_temp.html" afterPath="$PROJECT_DIR$/analysis/report_temp.html" />
+      <change beforePath="$PROJECT_DIR$/polo/checkorders.js" afterPath="$PROJECT_DIR$/polo/checkorders.js" />
       <change beforePath="$PROJECT_DIR$/polo/getpairs.js" afterPath="$PROJECT_DIR$/polo/getpairs.js" />
       <change beforePath="$PROJECT_DIR$/polo/run.js" afterPath="$PROJECT_DIR$/polo/run.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/premiumbox/default/parser/cron.php" afterPath="$PROJECT_DIR$/wp-content/plugins/premiumbox/default/parser/cron.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,68 +32,68 @@
       <file leaf-file-name="run.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polo/run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/index.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/telegram/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/run.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+            <state relative-caret-position="245">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yo/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkorders.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polo/checkorders.js">
+        <entry file="file://$PROJECT_DIR$/telegram/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getpairs.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/polo/getpairs.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="130" column="27" lean-forward="false" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/report.html">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polo/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1905">
-              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getpairs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegram/getpairs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="125" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getbalance.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegram/getbalance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -93,66 +102,48 @@
       <file leaf-file-name="analysis.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis/analysis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
               <folding>
-                <marker date="1513898108000" expanded="true" signature="731:768" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="907:925" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="1547:1564" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="1683:1720" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="1767:1843" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="1902:1979" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="2037:2114" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="2175:2252" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="2312:2415" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="2473:2580" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="2637:2733" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="2786:2863" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="3143:3175" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="4338:4420" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="4732:4753" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="5365:5399" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="5589:5633" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="11021:11058" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="11199:11237" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="17900:17937" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="18101:18119" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="19559:19580" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="21223:21244" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="22986:23007" ph="..." />
-                <marker date="1513898108000" expanded="true" signature="24668:24689" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="852:889" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="1028:1046" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="1668:1685" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="1804:1841" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="1888:1964" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="2023:2100" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="2158:2235" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="2296:2373" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="2433:2536" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="2594:2701" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="2758:2854" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="2907:2984" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="3264:3296" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="4760:4842" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="5233:5267" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="5457:5501" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="10298:10335" ph="..." />
+                <marker date="1514529603000" expanded="true" signature="10476:10514" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cybermoney.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/cybermoney.js">
+      <file leaf-file-name="checkorders.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polo/checkorders.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding>
-                <marker date="1513854190000" expanded="true" signature="1123:1160" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1309:1347" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1510:1527" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1567:1603" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1623:1660" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1712:1749" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1794:1831" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1876:1913" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="1915:1921" ph=" " />
-                <marker date="1513854190000" expanded="true" signature="1921:1927" ph=" " />
-                <marker date="1513854190000" expanded="true" signature="1927:1933" ph=" " />
-                <marker date="1513854190000" expanded="true" signature="1975:2012" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="2014:2020" ph=" " />
-                <marker date="1513854190000" expanded="true" signature="2020:2026" ph=" " />
-                <marker date="1513854190000" expanded="true" signature="2026:2032" ph=" " />
-                <marker date="1513854190000" expanded="true" signature="2446:2478" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="2979:3035" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="4017:4102" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="4186:4271" ph="..." />
-                <marker date="1513854190000" expanded="true" signature="4359:4434" ph="..." />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="20" column="84" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getpairs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polo/getpairs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="64" column="75" lean-forward="false" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="90" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,36 +152,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>err</find>
-      <find>buy data..</find>
-      <find>toFixed</find>
-      <find>buy data................</find>
-      <find>connection</find>
-      <find>setTimeout</find>
-      <find>retu</find>
-      <find>push</find>
-      <find>resp</find>
-      <find>tof</find>
-      <find>ordernum</find>
-      <find>sellPrice</find>
-      <find>volu</find>
-      <find>return</find>
-      <find>key</find>
-      <find>MODER</find>
-      <find>Направления обмена</find>
-      <find>table</find>
-      <find>FOR WIN</find>
-      <find>FOR W</find>
-      <find>buy</find>
-      <find>p[key]</find>
-      <find>polo[key]</find>
-      <find>polo</find>
-      <find>boundKey</find>
-      <find>string</find>
-      <find>ranks</find>
-      <find>console.log</find>
+      <find>pn_adminpage_parser</find>
+      <find>RUB - USD - BTC</find>
+      <find>CBR BSTAMP</find>
+      <find>BSTAMP</find>
+      <find>+++++</find>
+      <find>-----</find>
+      <find>maximum pairs limit</find>
+      <find>price_new_sell</find>
+      <find>exp_sell</find>
+      <find>price_parser_sell</find>
+      <find>boot</find>
+      <find>100 GBM</find>
+      <find>mobiri</find>
+      <find>log</find>
+      <find>str</find>
+      <find>data_head</find>
+      <find>dele</find>
+      <find>where</find>
+      <find>update</find>
+      <find>&lt;script type=&quot;text/javascript&quot; src=&quot;https://files.coinmarketcap.com/static/widget/currency.js&quot;&gt;&lt;/script&gt;</find>
+      <find>WHER</find>
+      <find>ticker</find>
+      <find>p_orders</find>
+      <find>pending</find>
+      <find>tic</find>
+      <find>buy da</find>
       <find>Promise</find>
+      <find>res</find>
       <find>rank_array</find>
+      <find>Poloniex</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/analysis</dir>
@@ -222,15 +213,23 @@
         <option value="$PROJECT_DIR$/polo/index.js" />
         <option value="$PROJECT_DIR$/polo/checkprice.js" />
         <option value="$PROJECT_DIR$/polo/buy.js" />
-        <option value="$PROJECT_DIR$/analysis/report.html" />
         <option value="$PROJECT_DIR$/analysis/assets/mobirise/css/style.css" />
-        <option value="$PROJECT_DIR$/analysis/bestchange.js" />
         <option value="$PROJECT_DIR$/yo/run.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/premiumbox/default/parser/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/premiumbox/default/parser/cron.php" />
+        <option value="$PROJECT_DIR$/analysis/report.html" />
+        <option value="$PROJECT_DIR$/analysis/bestchange.js" />
         <option value="$PROJECT_DIR$/analysis/cybermoney.js" />
         <option value="$PROJECT_DIR$/analysis/analysis.js" />
+        <option value="$PROJECT_DIR$/polo/index.html" />
+        <option value="$PROJECT_DIR$/polo/getorders.js" />
+        <option value="$PROJECT_DIR$/polo/stoploss.js" />
         <option value="$PROJECT_DIR$/polo/checkorders.js" />
-        <option value="$PROJECT_DIR$/polo/run.js" />
         <option value="$PROJECT_DIR$/polo/getpairs.js" />
+        <option value="$PROJECT_DIR$/polo/run.js" />
+        <option value="$PROJECT_DIR$/telegram/getpairs.js" />
+        <option value="$PROJECT_DIR$/telegram/getbalance.js" />
+        <option value="$PROJECT_DIR$/telegram/index.js" />
       </list>
     </option>
   </component>
@@ -250,14 +249,13 @@
     <handled-path value="$PROJECT_DIR$/d/node_modules" />
     <handled-path value="$PROJECT_DIR$/polo/node_modules" />
     <handled-path value="$PROJECT_DIR$/ps/node_modules" />
+    <handled-path value="$PROJECT_DIR$/telegram/node_modules" />
     <handled-path value="$PROJECT_DIR$/yo/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="23" />
-    <option name="width" value="1408" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -276,6 +274,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,13 +290,12 @@
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="yo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="telegram" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,6 +308,7 @@
       <recent name="$PROJECT_DIR$/analysis" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/telegram" />
       <recent name="$PROJECT_DIR$/polo" />
       <recent name="$PROJECT_DIR$/analysis" />
     </key>
@@ -354,18 +353,18 @@
       <workItem from="1513738629358" duration="27630000" />
       <workItem from="1513813679870" duration="6468000" />
       <workItem from="1513824583799" duration="9321000" />
-      <workItem from="1514002048664" duration="16610000" />
+      <workItem from="1514002048664" duration="62268000" />
+      <workItem from="1515200028859" duration="12819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119427000" />
+    <option name="totallyTimeSpent" value="177904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1408" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1317716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13876967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32225063" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
@@ -373,7 +372,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27621484" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969843" sideWeight="0.49707174" order="7" side_tool="true" content_ui="tabs" x="37" y="395" width="1366" height="216" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -416,115 +415,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/analysis/analysis.js</url>
-          <line>215</line>
+          <line>203</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/localbitcoins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/package.json" />
-    <entry file="file://$PROJECT_DIR$/analysis/node_modules/casperjs/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/node_modules/casperjs/bin/casperjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/run2.js" />
-    <entry file="file://$PROJECT_DIR$/composetest/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composetest/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composetest/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodock/composehub.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ps/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ps/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composetest/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -587,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="1325" lean-forward="false" selection-start-line="4" selection-start-column="1325" selection-end-line="4" selection-end-column="1325" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/d/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -643,25 +535,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polo/checkprice.js" />
     <entry file="file://$PROJECT_DIR$/analysis/report_temp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -686,112 +564,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/bestchange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="32" lean-forward="false" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yo/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1905">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/cybermoney.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-          <folding>
-            <marker date="1513854190000" expanded="true" signature="1123:1160" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1309:1347" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1510:1527" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1567:1603" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1623:1660" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1712:1749" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1794:1831" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1876:1913" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="1915:1921" ph=" " />
-            <marker date="1513854190000" expanded="true" signature="1921:1927" ph=" " />
-            <marker date="1513854190000" expanded="true" signature="1927:1933" ph=" " />
-            <marker date="1513854190000" expanded="true" signature="1975:2012" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="2014:2020" ph=" " />
-            <marker date="1513854190000" expanded="true" signature="2020:2026" ph=" " />
-            <marker date="1513854190000" expanded="true" signature="2026:2032" ph=" " />
-            <marker date="1513854190000" expanded="true" signature="2446:2478" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="2979:3035" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="4017:4102" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="4186:4271" ph="..." />
-            <marker date="1513854190000" expanded="true" signature="4359:4434" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/analysis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
-          <folding>
-            <marker date="1513898108000" expanded="true" signature="731:768" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="907:925" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="1547:1564" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="1683:1720" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="1767:1843" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="1902:1979" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="2037:2114" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="2175:2252" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="2312:2415" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="2473:2580" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="2637:2733" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="2786:2863" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="3143:3175" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="4338:4420" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="4732:4753" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="5365:5399" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="5589:5633" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="11021:11058" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="11199:11237" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="17900:17937" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="18101:18119" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="19559:19580" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="21223:21244" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="22986:23007" ph="..." />
-            <marker date="1513898108000" expanded="true" signature="24668:24689" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="983">
-          <caret line="85" column="3" lean-forward="false" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,30 +575,247 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yo/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="378" column="49" lean-forward="false" selection-start-line="378" selection-start-column="49" selection-end-line="378" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/premiumbox/sitepage/curscron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/bestchange2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/premiumbox/default/parser/parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/premiumbox/default/parser/cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="1284" column="5" lean-forward="false" selection-start-line="1284" selection-start-column="5" selection-end-line="1284" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/premiumbox/default/parser/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="321" column="34" lean-forward="false" selection-start-line="321" selection-start-column="34" selection-end-line="321" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="4" column="1860" lean-forward="false" selection-start-line="4" selection-start-column="1860" selection-end-line="4" selection-end-column="1860" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/export.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/bestchange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-498">
+          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="100" column="20" lean-forward="false" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/cybermoney.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/localbitcoins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polo/orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polo/getorders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polo/stoploss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/analysis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <marker date="1514529603000" expanded="true" signature="852:889" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="1028:1046" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="1668:1685" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="1804:1841" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="1888:1964" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="2023:2100" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="2158:2235" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="2296:2373" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="2433:2536" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="2594:2701" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="2758:2854" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="2907:2984" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="3264:3296" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="4760:4842" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="5233:5267" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="5457:5501" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="10298:10335" ph="..." />
+            <marker date="1514529603000" expanded="true" signature="10476:10514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polo/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polo/checkorders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polo/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="20" column="84" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polo/getpairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="130" column="27" lean-forward="false" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
+        <state relative-caret-position="71">
+          <caret line="64" column="75" lean-forward="false" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram/getpairs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="125" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram/getbalance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,19 @@
+{
+  "name": "btc_dolphin",
+  "version": "1.0.0",
+  "description": "polo trading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bokarev/cb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bokarev/cb/issues"
+  },
+  "homepage": "https://github.com/bokarev/cb#readme"
+}
